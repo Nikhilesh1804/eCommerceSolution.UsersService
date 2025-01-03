@@ -15,7 +15,7 @@ namespace eCommerce.Core
         public static IServiceCollection AddCore(this IServiceCollection services)
         {
             services.AddTransient<IUsersService, UsersService>();
-            services.AddValidatorsFromAssemblyContaining<>();
+            //services.AddValidatorsFromAssemblyContaining();
             // Add services to the IoC container
             return services;
         }
